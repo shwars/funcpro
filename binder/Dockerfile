@@ -51,6 +51,7 @@ RUN dotnet help
 # Copy notebooks
 
 COPY ./notebooks/ ${HOME}/notebooks/
+COPY ./course/ ${HOME}/course/
 
 # Copy package sources
 
@@ -72,4 +73,4 @@ RUN dotnet interactive jupyter install
 ENV DOTNET_TRY_CLI_TELEMETRY_OPTOUT=false
 
 # Set root to notebooks
-WORKDIR ${HOME}/notebooks/
+WORKDIR ${HOME}
