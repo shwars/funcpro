@@ -28,7 +28,7 @@ RUN rm -rf /var/lib/apt/lists/*
 # Install .NET Core SDK
 ENV DOTNET_SDK_VERSION 5.0
 
-RUN curl -SL --output dotnet.tar.gz https://dotnetcli.blob.core.windows.net/dotnet/Sdk/$DOTNET_SDK_VERSION/dotnet-sdk-$DOTNET_SDK_VERSION-linux-x64.tar.gz \
+RUN curl -SL --output dotnet.tar.gz http://aka.ms/dotnet/5.0/dotnet-sdk-linux-x64.tar.gz \
     && mkdir -p /usr/share/dotnet \
     && tar -zxf dotnet.tar.gz -C /usr/share/dotnet \
     && rm dotnet.tar.gz \
