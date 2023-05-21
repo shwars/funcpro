@@ -8,6 +8,6 @@ Related Links:
 * [Course Home Page](https://soshnikov.com/courses/funcpro/)
 
 You may also look at the following related video courses:
-* [Exciting F#](https://channel9.msdn.com/Series/Exciting-introduction-to-functional-programming-in-F-rus) on Microsoft Channel 9
+* [Exciting F#](https://channel9.msdn.com/Series/Exciting-introduction-to-functional-programming-in-F-rus) on Microsoft Channel 9 ([web-archive](https://web.archive.org/web/20210127140214/https://channel9.msdn.com/Series/Exciting-introduction-to-functional-programming-in-F-rus))
 * [Functional Programming](https://www.intuit.ru/studies/courses/471/327/info) on Intuit.ru (in Russian)
 
